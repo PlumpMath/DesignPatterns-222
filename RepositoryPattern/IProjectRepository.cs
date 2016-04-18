@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace RepositoryPattern
 {
-    public interface  IProjectRepository
+    public interface IProjectRepository
     {
         Project GetProjectById(int Id);
         List<Project> GetProjects();
-        void AddProject(Project project);
+        Project AddProject(Project project);
     }
 }

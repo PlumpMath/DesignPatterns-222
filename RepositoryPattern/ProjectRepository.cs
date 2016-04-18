@@ -11,9 +11,11 @@ namespace RepositoryPattern
             _connectionString = connectionString;
         }
 
-        public void AddProject(Project project)
+        public Project AddProject(Project project)
         {
-            return;
+            project.Id = 1;
+            project.Name = "Testing Project";
+            return project;
         }
 
         public Project GetProjectById(int Id)
