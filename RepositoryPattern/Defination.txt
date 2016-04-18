@@ -1,0 +1,25 @@
+﻿Problems
+Duplicated code
+A higher potential for programming errors
+Weak typing of the business data
+Difficulty in centralizing data-related policies such as caching
+An inability to easily test the business logic in isolation from external dependencies
+
+
+Solutions
+You want to maximize the amount of code that can be tested with automation and to isolate the data layer to support unit testing.
+You access the data source from many locations and want to apply centrally managed, consistent access rules and logic.
+You want to implement and centralize a caching strategy for the data source.
+You want to improve the code's maintainability and readability by separating business logic from data or service access logic.
+You want to use business entities that are strongly typed so that you can identify problems at compile time instead of at run time.
+You want to associate a behavior with the related data. For example, you want to calculate fields or enforce complex relationships or business rules between the data elements within an entity.
+You want to apply a domain model to simplify complex business logic.
+
+Defination
+Use a repository to separate the logic that retrieves the data and maps it to the entity model from the business logic that acts on the model. 
+The business logic should be agnostic to the type of data that comprises the data source layer. 
+For example, the data source layer can be a database, a SharePoint list, or a Web service.
+
+It centralizes the data logic or Web service access logic.
+It provides a substitution point for the unit tests.
+It provides a flexible architecture that can be adapted as the overall design of the application evolves.
