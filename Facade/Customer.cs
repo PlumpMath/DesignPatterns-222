@@ -20,5 +20,6 @@ namespace Facade
             Age = _age;
             IsSmoker = _isSmoker;
         }
+      
     }
 }
