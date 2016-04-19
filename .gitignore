@@ -42,3 +42,7 @@
 /TestResults
 /EnterprisePatternsTest/bin/Debug
 /.vs/DesignPatterns/v14
+/Facade/bin/Debug
+/Facade/obj/Debug
+/StructuralPatternsTest/bin/Debug
+/StructuralPatternsTest/obj/Debug
