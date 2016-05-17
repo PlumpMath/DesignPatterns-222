@@ -50,10 +50,15 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="ChainOfResponsibility.cs" />
     <Compile Include="ObserverTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ChainOfResponsibility\ChainOfResponsibility.csproj">
+      <Project>{8a796b18-5da9-4a43-9425-6ff153aa0134}</Project>
+      <Name>ChainOfResponsibility</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Observer\Observer.csproj">
       <Project>{8abfd6e9-6b90-4c12-a197-a9c9d24a677b}</Project>
       <Name>Observer</Name>
