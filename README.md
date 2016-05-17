@@ -1,2 +1,24 @@
-# DesignPatterns
-Design Patterns Samples
+# C# Design Patterns
+## C# Design Patterns Samples
+* Structural
+  * Facade
+* Behavioural
+  * Chain of Responsibility
+  * Observer
+* Creational
+  * Abstract Factory
+  * Builder
+  * Factory
+  * Factort Method
+  * Prototype
+  * Singleton
+* Enterprise Patterns
+  * Repository Pattern
+* SOLID Fundamentals
+  * Single Responsibility
+  * Open Closed
+  * Liskov Substitution
+  * Interface Segregation
+  * Dependency Inversion
+ 
+
