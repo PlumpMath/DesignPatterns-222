@@ -21,6 +21,6 @@
   * Interface Segregation
   * Dependency Inversion
 
-[Link to DoFactory] http://www.dofactory.com/net/design-patterns
+[Link to DoFactory](http://www.dofactory.com/net/design-patterns)
  
 
