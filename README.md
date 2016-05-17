@@ -1,5 +1,5 @@
-# C# Design Patterns
-## C# Design Patterns Samples
+# C# Design Patterns Samples
+
 * Structural
   * Facade
 * Behavioural
@@ -20,5 +20,7 @@
   * Liskov Substitution
   * Interface Segregation
   * Dependency Inversion
+
+[Link to DoFactory] http://www.dofactory.com/net/design-patterns
  
 
