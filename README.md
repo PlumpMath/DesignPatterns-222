@@ -22,5 +22,6 @@
   * Dependency Inversion
 
 [Link to DoFactory](http://www.dofactory.com/net/design-patterns)
+[![Build Status](https://travis-ci.org/tailangp/DesignPatterns.svg?branch=master)](https://travis-ci.org/tailangp/DesignPatterns)
  
 
