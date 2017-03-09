@@ -1,0 +1,4 @@
+language: csharp
+solution: DesignPatterns.sln
+install:
+ - nuget restore DesignPatterns.sln
