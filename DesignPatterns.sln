@@ -7,17 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Sing
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational Patterns", "Creational Patterns", "{941E2E6C-CEEF-4B66-8453-6C337455D139}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreationalPatternsTest", "CreationalPatternsTest\CreationalPatternsTest.csproj", "{D16ED345-B220-4547-8E37-2AE9D8732E08}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{7E6F53D5-02E6-4179-87E3-A2C87BE39F32}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{549F8093-4FE2-4A54-AE0C-FF3734D8D465}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SOLID", "SOLID", "{1EDF892E-73A3-4D9D-9068-E182C6E8C180}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleResponsibility", "SingleResponsibility\SingleResponsibility.csproj", "{85C52605-7D17-435B-B1A4-B3AFC9BC9603}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLIDTests", "SOLIDTests\SOLIDTests.csproj", "{7A55AA00-810C-4A88-85CE-C83B0B9E501A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenClosed", "OpenClosed\OpenClosed.csproj", "{14A54BC7-0B4F-4D1B-8B1C-9EA92DAB39D2}"
 EndProject
@@ -47,13 +41,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Enterprise Patterns", "Ente
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryPattern", "RepositoryPattern\RepositoryPattern.csproj", "{1D3B6D2A-DDEF-4543-BAA5-C914A4E9A815}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnterprisePatternsTest", "EnterprisePatternsTest\EnterprisePatternsTest.csproj", "{29966F86-7F79-4AB8-B0F7-E59DCADD37A3}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", "{1E5CA89C-EA73-48D1-AF90-251CACC67430}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "Facade\Facade.csproj", "{4F1C2C19-B408-4E8D-AF2B-3E738CF7CB18}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructuralPatternsTest", "StructuralPatternsTest\StructuralPatternsTest.csproj", "{D67D58F9-2110-4003-AB4A-41CA74ADFADD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
