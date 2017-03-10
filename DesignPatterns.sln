@@ -35,8 +35,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility", "Ch
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{8ABFD6E9-6B90-4C12-A197-A9C9D24A677B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BehavioralPatternsTest", "BehavioralPatternsTest\BehavioralPatternsTest.csproj", "{4FF9FF3A-37A1-4421-9D89-42C260C1E24F}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Enterprise Patterns", "Enterprise Patterns", "{987AE31B-6BC1-4189-8FCE-5F8D7F16C6E5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryPattern", "RepositoryPattern\RepositoryPattern.csproj", "{1D3B6D2A-DDEF-4543-BAA5-C914A4E9A815}"
