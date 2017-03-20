@@ -8,14 +8,12 @@
   * Chain of Responsibility
   * Observer
 * Creational
-  * Abstract Factory
+  * [Abstract Factory]((https://github.com/tailangp/DesignPatterns/blob/master/AbstractFactory/Defination.md)
   * Builder
   * Factory
-  * Factory Method
+  * [Factory Method]((https://github.com/tailangp/DesignPatterns/blob/master/AbstractMethod/Defination.md)
   * Prototype
-  * Singleton
-  ** A class of which only a single instance can exist
-     Ensure a class has only one instance and provide a global point of access to it.
+  * [Singleton](https://github.com/tailangp/DesignPatterns/blob/master/Singleton/Defination.md)
 * Enterprise Patterns
   * Repository Pattern
 * SOLID Fundamentals
