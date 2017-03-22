@@ -8,12 +8,12 @@
   * Chain of Responsibility
   * Observer
 * Creational
-  * Abstract Factory
+  * [Abstract Factory](https://github.com/tailangp/DesignPatterns/blob/master/AbstractFactory/Defination.md)
   * Builder
-  * Factory
-  * Factort Method
+  * [Factory](https://github.com/tailangp/DesignPatterns/blob/master/Factory/Defination.md)
+  * [Factory Method](https://github.com/tailangp/DesignPatterns/blob/master/AbstractMethod/Defination.md)
   * Prototype
-  * Singleton
+  * [Singleton](https://github.com/tailangp/DesignPatterns/blob/master/Singleton/Defination.md)
 * Enterprise Patterns
   * Repository Pattern
 * SOLID Fundamentals
