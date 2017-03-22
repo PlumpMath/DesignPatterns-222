@@ -52,9 +52,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Defination.txt" />
-  </ItemGroup>
-  <ItemGroup>
+    <None Include="Defination.md" />
     <None Include="Dig.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -52,10 +52,8 @@
     <Compile Include="EducationPage.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Defination.md" />
     <None Include="Dig.cd" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Defination.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
