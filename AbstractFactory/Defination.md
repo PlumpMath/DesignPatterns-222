@@ -48,7 +48,7 @@ Both of these interfaces are implemented on products like Figo, Swift, Fiesta an
     
     public class Figo : IHatchBack
     {
-    public string Name()
+        public string Name()
         {
                 return "Figo";
         }
@@ -56,7 +56,7 @@ Both of these interfaces are implemented on products like Figo, Swift, Fiesta an
 
     public class Swift : IHatchBack
     {
-    public string Name()
+        public string Name()
         {
                 return "Swift";
         }
@@ -64,59 +64,57 @@ Both of these interfaces are implemented on products like Figo, Swift, Fiesta an
 
     public class Fiesta : ISedan
     {
-            public string Name()
-            {
-                return "Fiesta";
-            }
+        public string Name()
+        {
+            return "Fiesta";
+        }
     }
     public class Dzire : ISedan
     {
-            public string Name()
-            {
-                return "Dzire";
-            }
+        public string Name()
+        {
+            return "Dzire";
+        }
     }
     
-
 
 Now we have a CarFactory which is our base factory. We have Products (Figo, Swift, Fiesta and Dzire) which are implementing our base product types ISedan and IHatchback. Now we need Factories to generate these products. So for that we will be creating 2 more classes as factories derived from our base ICarFactory and will be returning our products .
 
 
-    # Ford Factory & Maruti Factory
+# Ford Factory & Maruti Factory
+
 As you see in the below code both FordFactory and MarutiFactory are derived from ICarFactory and implemented the methods which are returning Concrete implementation of the Products. This gives us advantage when we have a group of related objects but we don’t want to restrict our concrete implementation on specific types. Like in our case Figo, Swift, Fiesta and Dzire.
     
     public class FordFactory : ICarFactory
     {
-            public ISedan GetSedan()
-            {
-                return new Fiesta();
-            }
+        public ISedan GetSedan()
+        {
+            return new Fiesta();
+        }
 
-            public IHatchBack GetHactchBack()
-            {
-                return new Figo();
-            }
+        public IHatchBack GetHactchBack()
+        {
+            return new Figo();
+        }
     }
 
     public class MarutiFactory : ICarFactory
     {
-            public ISedan GetSedan()
-            {
-                return new Dzire();
-            }
+        public ISedan GetSedan()
+        {
+            return new Dzire();
+        }
 
-            public IHatchBack GetHactchBack()
-            {
-                return new Swift();
-            }
+        public IHatchBack GetHactchBack()
+        {
+            return new Swift();
+        }
     }
     
 
-    # Usage
+# Usage
 
-Now all our Design structure is complete but how we are gone use it  J . Let see the below code.
-    We create objects of our Maruti and Ford Factories. We then create our products and by name property we access the members of the products.
-
+    Now all our Design structure is complete but how we are goning use it. Let see the below code. We create objects of our Maruti and Ford Factories. We then create our products and by name property we access the members of the products.
     
     ICarFactory factory1 = new MarutiFactory();
     ICarFactory factory2 = new FordFactory();
