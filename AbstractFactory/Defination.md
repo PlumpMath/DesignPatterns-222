@@ -140,4 +140,11 @@ Now all our Design structure is complete but how we are gone use it  J . Let see
 
 The code will give us (Swift, Dzire, Figo and Fiesta).
 
+Fig1. Abstract Factory Class Diagram
+
+![alt text](http://1.bp.blogspot.com/-2ObYGQI333g/VTYaVOxV_4I/AAAAAAAAYLE/EHyiXA2TEmI/s1600/Abs_Factory.png "Abstract Factory Class Diagram")
+
 I hope this gives readers an idea about the pattern and possible uses of it.
+
+Thanks for reading. 
+Leave your comments & suggestions for better improvements.
