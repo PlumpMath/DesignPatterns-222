@@ -21,7 +21,7 @@ namespace BehavioralPatternsTest
 
 
             //Get Discounted Price
-            Assert.AreEqual(product.GetDiscountedPrice(), 1500 * (50 / 100) + 1500);
+            Assert.AreEqual(product.GetDiscountedPrice(), 1500 - (1500 * (50 / 100)));
         }
 
 

@@ -18,7 +18,7 @@
         {
             if (IsDiscountApproved)
             {
-                return Price + Price * (Discount / 100);
+                return Price - Price * (Discount / 100);
             }
             else
             {
