@@ -22,8 +22,9 @@ The handler is a abstract class which takes the ConcreteHandler and sets the suc
         public abstract void ProcessDiscountRequest(Product product);
     }
 
-#### ConcreteHanlder
+#### ConcreteHandler
 Its the implemented class which inherits the Handler and overrides the method to process the request of responsibility.
+    
     public class AreaManager : Approver
     {
         public override void ProcessDiscountRequest(Product product)
