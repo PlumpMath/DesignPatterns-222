@@ -11,7 +11,7 @@
   * [Abstract Factory](https://github.com/tailangp/DesignPatterns/blob/master/AbstractFactory/Defination.md)
   * Builder
   * [Factory](https://github.com/tailangp/DesignPatterns/blob/master/Factory/Defination.md)
-  * [Factory Method](https://github.com/tailangp/DesignPatterns/blob/master/AbstractMethod/Defination.md)
+  * [Factory Method](https://github.com/tailangp/DesignPatterns/blob/master/FactoryMethod/Defination.md)
   * Prototype
   * [Singleton](https://github.com/tailangp/DesignPatterns/blob/master/Singleton/Defination.md)
 * Enterprise Patterns
