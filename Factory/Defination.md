@@ -4,7 +4,7 @@ Creates an instance of several derived classes. In Factory pattern, we create ob
 
 Factory design pattern by definition says it provides an interface for creating families of related or dependent objects without specifying their concrete classes. This definition is taken from GOF (Gang of Four) Patterns. It simply gives you benefits over creating similar object by avoiding the hassle of creating concrete implementation.
 
-Let take an example of the Position factory this will give us more idea on how the pattern works. Position factory produces Manager, Developer etc. the specification for the Manager and Developer is somewhat same you have Titile associated to it which tells its name. So whenever Position Factory creates a Developer or Manager they have same set of specifications for creating it. So idea behind is when you have common set of specifications you inherit that from your base model and enhance your features into it for final objects.
+Let take an example of the Position factory this will give us more idea on how the pattern works. Position factory produces Manager, Developer etc. the specification for the Manager and Developer is somewhat same you have Title associated to it which tells its name. So whenever Position Factory creates a Developer or Manager they have same set of specifications for creating it. So idea behind is when you have common set of specifications you inherit that from your base model and enhance your features into it for final objects.
 
 So in our example we have 
 * PositionFactory (Creator)
@@ -13,7 +13,7 @@ So in our example we have
 
 
 #### Position 
-The position class is our base class which is abstract or interface which will have common specification like the title porperty. The Title property will be overridden in the child classes to get the speicification overridden as per need.
+The position class is our base class which is abstract or interface which will have common specification like the title property. The Title property will be overridden in the child classes to get the specification overridden as per need.
 
     public abstract class Position
     {
@@ -21,7 +21,7 @@ The position class is our base class which is abstract or interface which will h
     }
 
 #### Position Factory 
-The PositionFactory class is our factory class which is static and looks for a condition and returns the concreate object.
+The PositionFactory class is our factory class which is static and looks for a condition and returns the concrete object.
 
     public static class PositionFactory
     {
@@ -39,7 +39,7 @@ The PositionFactory class is our factory class which is static and looks for a c
         }
     }
 
-#### Manage and Developer (Concreate Classes) 
+#### Manage and Developer (Concrete Classes) 
 The Developer and Manager classes will be overriding the Title and provides their own implementation which in our example is the title only from the base class Position.
 
     public class Developer : Position
