@@ -2,6 +2,8 @@
 
 Creates an instance of several families of classes. Provide an interface for creating families of related or dependent objects without specifying their concrete classes.
 
+Abstract Factory by design is Factory or Factories.
+
 Abstract Factory design pattern by definition says it provides an interface for creating families of related or dependent objects without specifying their concrete classes. This definition is taken from GOF (Gang of Four) Patterns. It simply gives you benefits over creating similar object by avoiding the hassle of creating concrete implementation.
 
 Let take an example of the Car factory this will give us more idea on how the pattern works. Car factory produces hatchbacks, sedans etc. the specification for the hatchbacks and sedans is somewhat standard you have additional boot space in sedans. So whenever a company creates a hatchback or sedan they have same set of specifications for creating it. So idea behind is when you have common set of specifications you inherit that from your base model and enhance your features into it for final product.
