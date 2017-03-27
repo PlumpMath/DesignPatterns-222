@@ -63,7 +63,7 @@
       <Project>{7e6f53d5-02e6-4179-87e3-a2c87be39f32}</Project>
       <Name>AbstractFactory</Name>
     </ProjectReference>
-    <ProjectReference Include="..\AbstractMethod\FactoryMethod.csproj">
+    <ProjectReference Include="..\FactoryMethod\FactoryMethod.csproj">
       <Project>{ac01178e-d5f7-4b4e-a127-efa82264fc7d}</Project>
       <Name>FactoryMethod</Name>
     </ProjectReference>

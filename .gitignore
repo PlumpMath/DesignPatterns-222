@@ -4,8 +4,6 @@
 
 /AbstractFactory/bin/Debug
 /AbstractFactory/obj/Debug
-/AbstractMethod/bin/Debug
-/AbstractMethod/obj/Debug
 /BehavioralPatternsTest/bin/Debug
 /BehavioralPatternsTest/obj/Debug
 /Builder/bin/Debug
@@ -47,3 +45,5 @@
 /StructuralPatternsTest/bin/Debug
 /StructuralPatternsTest/obj/Debug
 
+/FactoryMethod/bin/Debug
+/FactoryMethod/obj/Debug

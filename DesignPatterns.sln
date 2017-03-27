@@ -25,7 +25,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory", "Factory\Factory.csproj", "{8DAF1FC5-1ED4-4CC6-82CB-3BAF4ECF45BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "AbstractMethod\FactoryMethod.csproj", "{AC01178E-D5F7-4B4E-A127-EFA82264FC7D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{AC01178E-D5F7-4B4E-A127-EFA82264FC7D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "Prototype\Prototype.csproj", "{0F6664FD-17B8-44D1-A4A1-435354F14BEE}"
 EndProject
