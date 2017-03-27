@@ -12,20 +12,20 @@ Chain the receiving objects and pass the request along the chain until an object
 #### Handler
 The handler is a abstract class which takes the ConcreteHandler and sets the sucessive handler by property. The successor property is protected so that i should only be availble to the concrete implementation of the Handler.
 
-public abstract class Approver
-{
+    public abstract class Approver
+    {
         protected Approver successor { get; set; }
         public void SetSuccessor(Approver successor)
         {
             this.successor = successor;
         }
         public abstract void ProcessDiscountRequest(Product product);
-}
+    }
 
 #### ConcreteHanlder
 Its the implemented class which inherits the Handler and overrides the method to process the request of responsibility.
-public class AreaManager : Approver
-{
+    public class AreaManager : Approver
+    {
         public override void ProcessDiscountRequest(Product product)
         {
             //If Discount id lesser than
@@ -38,26 +38,28 @@ public class AreaManager : Approver
                 successor.ProcessDiscountRequest(product);
             }
         }
-}
+    }
 
  In our Use Case/Example we have taken a approver which is our abstract base class and is implemented in our concrete handlers like StoreManager, AreaManage and CountryHead. All these are overridding the Discount method on behalf of its power otherwise they move to the successor and pass on the request to be processed.
  
  Finally the usage of the pattern is done by creating objects and its sucessor and getting the discounts back.
  
-    Product product = new Product(50, 1500);
-    Approver storeMgr = new StoreManager();
-    Approver areaMgr = new AreaManager();
-    Approver countryHead = new CountryHead();
-    
-    //Set Successor
-    storeMgr.SetSuccessor(areaMgr);
-    areaMgr.SetSuccessor(countryHead);
-    
-    //Call 1st Process Request
-    storeMgr.ProcessDiscountRequest(product);
-    
-    //Gets the discounts 
-    product.GetDiscountedPrice()
+    {
+        Product product = new Product(50, 1500);
+        Approver storeMgr = new StoreManager();
+        Approver areaMgr = new AreaManager();
+        Approver countryHead = new CountryHead();
+        
+        //Set Successor
+        storeMgr.SetSuccessor(areaMgr);
+        areaMgr.SetSuccessor(countryHead);
+        
+        //Call 1st Process Request
+        storeMgr.ProcessDiscountRequest(product);
+        
+        //Gets the discounts 
+        product.GetDiscountedPrice()
+    }
  
  As you can see in above example you create objects of each of your approvers and set its successors by passing on the next level responsible object. Each approver will have the condition to check for the responsibility which in our case is amount of the discount the it can provide to the product.
  
