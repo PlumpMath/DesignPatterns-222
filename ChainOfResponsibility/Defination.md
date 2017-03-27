@@ -10,7 +10,7 @@ Chain the receiving objects and pass the request along the chain until an object
 	>Initiates the request to a ConcreteHandler object on the chain.
 
 #### Handler
-The handler is a abstract class which takes the ConcreteHandler and sets the sucessive handler by property. The successor property is protected so that i should only be availble to the concrete implementation of the Handler.
+The handler is a abstract class which takes the ConcreteHandler and sets the successive handler by property. The successor property is protected so that i should only be available to the concrete implementation of the Handler.
 
     public abstract class Approver
     {
@@ -41,7 +41,7 @@ Its the implemented class which inherits the Handler and overrides the method to
         }
     }
 
- In our Use Case/Example we have taken a approver which is our abstract base class and is implemented in our concrete handlers like StoreManager, AreaManage and CountryHead. All these are overridding the Discount method on behalf of its power otherwise they move to the successor and pass on the request to be processed.
+ In our Use Case/Example we have taken a approver which is our abstract base class and is implemented in our concrete handlers like StoreManager, AreaManage and CountryHead. All these are overriding the Discount method on behalf of its power otherwise they move to the successor and pass on the request to be processed.
  
  Finally the usage of the pattern is done by creating objects and its sucessor and getting the discounts back.
  
@@ -83,7 +83,7 @@ Its the implemented class which inherits the Handler and overrides the method to
         }
     }
            
-Hope you find it usefull in cases where you want to have responsibility restricted on behalf of the autority level. This pattern is also helpfull in the creating a workflow or the escalation channel if you want to create.
+Hope you find it useful in cases where you want to have responsibility restricted on behalf of the authority level. This pattern is also helpful in the creating a workflow or the escalation channel if you want to create.
 
 Fig1. Chain of Responsibility Class Diagram
 
