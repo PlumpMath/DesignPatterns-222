@@ -41,20 +41,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IProjectRepository.cs" />
-    <Compile Include="Models\Category.cs" />
     <Compile Include="Models\Project.cs" />
     <Compile Include="Models\ProjectType.cs" />
-    <Compile Include="Models\ReviewTask.cs" />
-    <Compile Include="Models\Severity.cs" />
-    <Compile Include="Models\SubCategory.cs" />
-    <Compile Include="Models\TeamMember.cs" />
-    <Compile Include="Models\TeamMemberType.cs" />
     <Compile Include="ProjectRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Defination.txt" />
     <Content Include="IC340233.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dig.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

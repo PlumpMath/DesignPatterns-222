@@ -10,7 +10,6 @@ namespace RepositoryPattern
 
         public int ProjectTypeId { get; set; }
         public virtual ProjectType ProjectType { get; set; }
-        public virtual List<TeamMember> TeamMembers { get; set; }
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
     }

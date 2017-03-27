@@ -21,16 +21,16 @@ namespace RepositoryPattern
         public Project GetProjectById(int Id)
         {
             //Connect DB And Add the Project
-            return new Project { Id = 1, Name = "Careerview", ProjectType = new ProjectType { Id = 5, Name = "CTB" } };
+            return new Project { Id = 1, Name = "CV", ProjectType = new ProjectType { Id = 5, Name = "CTB" } };
         }
 
         public List<Project> GetProjects()
         {
             //Connect DB And Return Projects
             List<Project> projects = new List<Project>();
-            projects.Add(new Project { Id = 1, Name = "Careerview", ProjectType = new ProjectType { Id = 5, Name = "CTB" } });
-            projects.Add(new Project { Id = 2, Name = "Careerview", ProjectType = new ProjectType { Id = 6, Name = "CTB" } });
-            projects.Add(new Project { Id = 3, Name = "Careerview", ProjectType = new ProjectType { Id = 7, Name = "CTB" } });
+            projects.Add(new Project { Id = 1, Name = "CV1", ProjectType = new ProjectType { Id = 5, Name = "CTB" } });
+            projects.Add(new Project { Id = 2, Name = "CV2", ProjectType = new ProjectType { Id = 6, Name = "CTB" } });
+            projects.Add(new Project { Id = 3, Name = "CV3", ProjectType = new ProjectType { Id = 7, Name = "CTB" } });
 
             return projects;
         }
