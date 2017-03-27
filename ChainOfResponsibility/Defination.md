@@ -81,6 +81,14 @@ Its the implemented class which inherits the Handler and overrides the method to
             }
         }
     }
-    
-    
-    Hope you find it usefull in cases where you want to have responsibility restricted on behalf of the autority level. This pattern is also helpfull in the creating a workflow or the escalation channel if you want to create.
+           
+Hope you find it usefull in cases where you want to have responsibility restricted on behalf of the autority level. This pattern is also helpfull in the creating a workflow or the escalation channel if you want to create.
+
+Fig1. Chain of Responsibility Class Diagram
+
+![alt text](https://github.com/tailangp/DesignPatterns/blob/master/ChainOfResponsibility/ChainOfResponsibility.png "Chain of Responsibility Class Diagram")
+
+I hope this gives readers an idea about the pattern and possible uses of it.
+
+Thanks for reading. 
+Leave your comments & suggestions for better improvements.

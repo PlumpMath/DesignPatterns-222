@@ -5,7 +5,7 @@
 * Structural
   * Facade
 * Behavioural
-  * Chain of Responsibility
+  * [Chain of Responsibility](https://github.com/tailangp/DesignPatterns/blob/master/ChainOfResponsibility/Defination.md)
   * Observer
 * Creational
   * [Abstract Factory](https://github.com/tailangp/DesignPatterns/blob/master/AbstractFactory/Defination.md)
