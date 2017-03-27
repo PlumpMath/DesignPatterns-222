@@ -51,6 +51,7 @@
     <None Include="Dig.cd" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ChainOfResponsibility.png" />
     <Content Include="Defination.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

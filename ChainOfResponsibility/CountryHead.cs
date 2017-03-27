@@ -16,7 +16,7 @@ namespace ChainOfResponsibility
             }
             else
             {
-                product.IsDiscountApproved = true;
+                product.IsDiscountApproved = false;
             }
         }
     }

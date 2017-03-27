@@ -19,6 +19,8 @@ namespace BehavioralPatternsTest
             storeMgr.SetSuccessor(areaMgr);
             areaMgr.SetSuccessor(countryHead);
 
+            //Call 1st Process Request
+            storeMgr.ProcessDiscountRequest(product);
 
             //Get Discounted Price
             Assert.AreEqual(product.GetDiscountedPrice(), 1500 - (1500 * (50 / 100)));
@@ -38,6 +40,8 @@ namespace BehavioralPatternsTest
             storeMgr.SetSuccessor(areaMgr);
             areaMgr.SetSuccessor(countryHead);
 
+            //Call 1st Process Request
+            storeMgr.ProcessDiscountRequest(product);
 
             //Get Discounted Price
             Assert.AreEqual(product.GetDiscountedPrice(), 1500);
