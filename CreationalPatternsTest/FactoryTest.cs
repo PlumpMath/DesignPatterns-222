@@ -14,7 +14,6 @@ namespace CreationalPatternsTest
             var mgr = PositionFactory.Get(0);
             Assert.IsNotNull(mgr);
             Assert.IsInstanceOfType(mgr, typeof(Position));
-            Assert.IsInstanceOfType(mgr, typeof(Manager));
         }
 
         [TestMethod]
@@ -23,7 +22,6 @@ namespace CreationalPatternsTest
             var developer = PositionFactory.Get(1);
             Assert.IsNotNull(developer);
             Assert.IsInstanceOfType(developer, typeof(Position));
-            Assert.IsInstanceOfType(developer, typeof(Developer));
         }
 
         [TestMethod]
