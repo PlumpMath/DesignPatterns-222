@@ -7,7 +7,7 @@
 * Behavioural
   * [Chain of Responsibility](https://github.com/tailangp/DesignPatterns/blob/master/ChainOfResponsibility/Defination.md)
   * Observer
-  * [Strategy](https://github.com/tailangp/DesignPatterns/blob/master/strategy/Defination.md)
+  * [Strategy](https://github.com/tailangp/DesignPatterns/blob/master/Strategy/Defination.md)
 * Creational
   * [Abstract Factory](https://github.com/tailangp/DesignPatterns/blob/master/AbstractFactory/Defination.md)
   * Builder
