@@ -1,0 +1,8 @@
+﻿Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from the clients that use it.
+Capture the abstraction in an interface, bury implementation details in derived classes.
+In Startegy Pattern, behavior of the class can be changed at runtime.
+
+Problem
+Applications tend to have high level of coupling which makes them less maintainble and tested independently.
+Which in sense breaks the "Open Closed principle". The "Open Closed principle" says classes should be open for extension but closed for modifications as it will help break less test and application modules.
+So to solve the problem we need to put our focus on Cohesion and make our application classes losely coupled. 
