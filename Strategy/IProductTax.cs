@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Strategy
 {
-    public interface ProductTax
+    public interface IProductTax
     {
         double GetProductTax(int price);
     }

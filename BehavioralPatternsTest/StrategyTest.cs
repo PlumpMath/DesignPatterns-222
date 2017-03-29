@@ -9,7 +9,7 @@ namespace BehavioralPatternsTest
         [TestMethod]
         public void TestStrategyValueAddedTax()
         {
-            ProductTax productTax = new ValueAddedTax();
+            IProductTax productTax = new ValueAddedTax();
             Product product = new Product(productTax);
             const int price = 100;
             const double taxRate = 5;
@@ -19,7 +19,7 @@ namespace BehavioralPatternsTest
         [TestMethod]
         public void TestStrategyDirectTax()
         {
-            ProductTax productTax = new DirectTax();
+            IProductTax productTax = new DirectTax();
             Product product = new Product(productTax);
             const int price = 100;
             const double taxRate = 10;
@@ -30,7 +30,7 @@ namespace BehavioralPatternsTest
         [TestMethod]
         public void TestStrategyInDirectTax()
         {
-            ProductTax productTax = new InDirectTax();
+            IProductTax productTax = new InDirectTax();
             Product product = new Product(productTax);
             const int price = 100;
             const double taxRate = 2.5;

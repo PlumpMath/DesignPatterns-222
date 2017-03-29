@@ -8,8 +8,8 @@ namespace Strategy
 {
     public class Product
     {
-        private ProductTax _productTax;
-        public Product(ProductTax productTax)
+        private IProductTax _productTax;
+        public Product(IProductTax productTax)
         {
             this._productTax = productTax;
         }

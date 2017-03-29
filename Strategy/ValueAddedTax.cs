@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Strategy
 {
-    public class ValueAddedTax : ProductTax
+    public class ValueAddedTax : IProductTax
     {
         private const double _valueAddedTax = 5;
         public double GetProductTax(int price)

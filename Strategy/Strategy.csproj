@@ -41,7 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ProductTax.cs" />
+    <Compile Include="IProductTax.cs" />
     <Compile Include="ValueAddedTax.cs" />
     <Compile Include="InDirectTax.cs" />
     <Compile Include="DirectTax.cs" />

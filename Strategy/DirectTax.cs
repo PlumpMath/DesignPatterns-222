@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Strategy
 {
-    public class DirectTax : ProductTax
+    public class DirectTax : IProductTax
     {
         private const double _directTaxRate = 10;
         public double GetProductTax(int price)
