@@ -49,10 +49,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Defination.txt" />
     <Content Include="Strategy.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Defination.md" />
     <None Include="dig.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
