@@ -47,6 +47,7 @@
     <Compile Include="VehicleCreator.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Builder.png" />
     <Content Include="Defination.txt" />
   </ItemGroup>
   <ItemGroup>

@@ -1,28 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="Builder.FordFigoBuilder" Collapsed="true">
-    <Position X="3" Y="2.75" Width="1.5" />
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Builder.FordFigoBuilder">
+    <Position X="3" Y="4.5" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAQAACAAAABAAAAAAAAgAAAAAIAAAQAAAAAAAAAA=</HashCode>
       <FileName>FordFigoBuilder.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Builder.Vehicle" Collapsed="true">
-    <Position X="5" Y="2.75" Width="1.5" />
+  <Class Name="Builder.Vehicle">
+    <Position X="6" Y="0.75" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAIABAAAAAAAAAAAABAgBAAAAgAA=</HashCode>
       <FileName>Vechile.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Builder.VehicleBuilder" Collapsed="true">
-    <Position X="3" Y="1.5" Width="1.5" />
+  <Class Name="Builder.VehicleBuilder">
+    <Position X="3" Y="0.75" Width="2" />
     <TypeIdentifier>
       <HashCode>AAQAAQAACAAAABAAAAAAAAgAAAIAJAAAQAAAAAAAAAA=</HashCode>
       <FileName>VehicleBuilder.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Builder.VehicleCreator" Collapsed="true">
-    <Position X="5" Y="1.5" Width="1.5" />
+  <Class Name="Builder.VehicleCreator">
+    <Position X="8.25" Y="0.75" Width="2" />
     <TypeIdentifier>
       <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAACAA=</HashCode>
       <FileName>VehicleCreator.cs</FileName>
